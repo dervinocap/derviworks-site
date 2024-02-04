@@ -1,0 +1,208 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header {
+    background-color: #1C0845;
+    color: #ffffff;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.title-container {
+    margin-right: auto;
+}
+
+button {
+    background-color: transparent;
+    color: #0D0D0D;
+    padding: 10px 20px;
+    margin-left: 10px;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+}
+
+button img {
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+img {
+    width: 400px;
+    height: 400px; 
+    height: auto; 
+}
+
+.buttons {
+    width: 70px;
+    transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  
+.buttons:hover {
+    transform: scale(1.2);
+  }
+
+  footer {
+    font-family: 'Geologica', sans-serif;
+    background-color: #1C0845;
+    color: #421897;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 790px;
+  }
+
+img {
+    width: 500px; 
+    height: auto; 
+}
+
+.image {
+    position: absolute;
+    top: 400px;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    animation: upAndDown 2s ease-in-out infinite alternate; 
+}
+
+@keyframes upAndDown {
+    0% {
+        transform: translate(-50%, -50%) translateY(0);
+    }
+    100% {
+        transform: translate(-50%, -50%) translateY(-5vh); 
+    }
+}
+
+.title {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.animated {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 40px;
+    position: absolute;
+    top: 220px;
+    left: 1000px;
+    color: #ffffff;
+    white-space: nowrap; 
+    overflow: hidden; 
+    border-right: 2px solid #ffffff; 
+    padding-right: 5px; 
+}
+
+.primary-text {
+    font-family: 'DM Mono', monospace;
+    font-size: 50px;
+    position: absolute;
+    top: 275px;
+    left: 1000px;
+    color: #ffffff;
+}
+
+.secondary-text {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 35px;
+    position: absolute;
+    top: 366px;
+    left: 1000px;
+    color: #ffffff;
+}
+
+.tertiary-text {
+    font-family: 'Fira Code', monospace;
+    font-size: 24px;
+    position: absolute;
+    top: 450px;
+    left: 1000px;
+    color: #ffffff;
+}
+
+.mc {
+
+    position: absolute;
+    top: 25px;
+    left: 70px;
+
+    width: 70px;
+    height: 70px; 
+    height: auto; 
+}
+
+
+.repository-button{
+
+    font-family: 'Fira Code', monospace;
+    font-weight: 0;
+    font-size: 34px;
+    color: #fff;
+    background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    position: absolute;
+    top: 550px;
+    left: 980px;
+    border: 2px linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.spigot-button{
+
+    font-family: 'Fira Code', monospace;
+    font-weight: 0;
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    top: 650px;
+    left: 200px;
+    background: linear-gradient(90deg, #ff71ea 0%, #0066cc 100%);
+    padding: 10px 30px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.polymart-button{
+
+    font-family: 'Fira Code', monospace;
+    font-weight: 0;
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    top: 650px;
+    left: 400px;
+    background: linear-gradient(90deg, #ff71ea 0%, #0066cc 100%);
+    padding: 10px 30px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+    
